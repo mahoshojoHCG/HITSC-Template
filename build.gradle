@@ -1,0 +1,45 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+    id 'java'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/P1'
+            srcDir 'src/P2'
+            srcDir 'src/P3'
+        }
+    }
+    test {
+        java {
+            srcDir 'test/P1'
+            srcDir 'test/P2'
+            srcDir 'test/P3'
+        }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("com.google.guava:guava:28.2-jre")
+    implementation("com.google.code.gson:gson:2.8.6")
+    implementation("org.apache.commons:commons-configuration2:2.7")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.1")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.6.1")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.1")
+    implementation ("org.jetbrains:annotations:15.0")
+}
+
