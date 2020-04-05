@@ -2,7 +2,10 @@
 
 A Templete with Gradle and CI!
 
+[**简体中文**](https://github.com/mahoshojoHCG/HITSC-Template/blob/master/README.zh_Hans.md)
+
 ## How to use it
+
 
 ``` shell
 git clone https://github.com/mahoshojoHCG/HITSC-Template.git
