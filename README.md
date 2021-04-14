@@ -9,7 +9,7 @@ A Templete with Gradle and CI!
 
 ``` shell
 git clone https://github.com/mahoshojoHCG/HITSC-Template.git
-git remote set-url $(YOUR_LAB_REPOSITORY_ADDRESS)
+git remote set-url origin $(YOUR_LAB_REPOSITORY_ADDRESS)
 git remote -v
 #verify if your remote has changed.
 git push -u origin master
