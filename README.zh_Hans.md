@@ -17,7 +17,7 @@ git clone https://github.com/mahoshojoHCG/HITSC-Template.git
 让后将远程端换成你的实验仓库地址，后面的地址要填写你的仓库地址，不要直接复制这个：
 
 ``` shell
-git remote set-url https://github.com/XXX/Labn-123456789.git
+git remote set-url origin https://github.com/XXX/Labn-123456789.git
 ```
 
 然后看一下远端是否换成功了：
